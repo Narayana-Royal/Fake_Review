@@ -52,6 +52,7 @@
 > Importing the necessary libraries to perform dataset operations including saving built models using pickle, nltk for stopwords removal (i.e data cleaning) , regular expression for searching in data etc..
 
 *STEP 1 : DATA CLEANING*
+
 > Reading the amazon reviews dataset using PANDAS READ method.
 
 > Performing Tokenization and Stemming. At first, To tokenize we need to remove the symbols and other unnecessary exclamations. This can be done by subtracting the unwanted things using regular expression and after removing we can now split the whole sentence into words. 
