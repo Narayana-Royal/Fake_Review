@@ -69,7 +69,7 @@
 
 > Independent to X variable , Now in order to count the number of verbs and nouns in a sentence, which helps to predict the real/fake ones, I performed POS Tagging. This basically means, if there are more number of nouns than verbs then review text is true and if it's vice versa then its false. To convert it into machine readable form. I performed this, if the review text is True then the order will be of one kind (2d array with 1,0) and if its false then order will be of another (2d array with 0,1).
 
-> Now append the above X variable data which is present after performing Count Vectorizer with data after performing POS Tagging.
+> Now append the above X variable data which has data after performing Count Vectorizer with the data after performing POS Tagging.
 > So now X has data of all 0s and 1s after performing Count Vectorizer and POS Tagging.
 
 > Visualising the cleaned data by using seaborn library and plotting the graphs (i.e BARPLOT) and extracting the insight (as in our dataset
