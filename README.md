@@ -49,19 +49,21 @@
 
 **4. Explanation along with the Code**:
 
-> Importing the necessary libraries to perform dataset operations which are numpy,pandas,matplotlib,seaborn
+> Importing the necessary libraries to perform dataset operations including saving built models using pickle, nltk for stopwords removal (i.e data cleaning) , regular expression for searching in data etc..
 
-> Reading the data of both train.csv and test.csv files using PANDAS READ method
+> Reading the amazon reviews dataset using PANDAS READ method.
 
-> checking the general information of data by using methods called INFO(),DESCRIBE()
+> Taking the values of review text in this dataset as target variable "y".
 
-> Dropping the unnecessary column by DROP method
+*STEP 1 : DATA CLEANING*
 
-> Changing categorical values of each column to numerical by MAPping function
+> Performing Tokenization and Stemming. At first, To tokenize we need to remove the symbols and other unnecessary exclamations. This can be done by subtracting the unwanted things using regular expression and after removing we can now split the whole sentence into words. 
 
-> Filling the missing values by using MODE statistical operation(which is efficient one !)
+> Now we can remove the stopwords which are not useful for our machine learning model predictions. Also , to reduce the number of words I have done stemming which places only one word among multiple words which conveys the same meaning.(For example: Discover , Discovering , Discovered all 3 conveys same meaning so we can reduce these 3 to 1 word by using stemming method). Make a list of string into one string using join method. and append it to the corpus which has empty string. All these process is done for each review text.
 
-> Changing all column datatypes to int using ASTYPE() method
+*STEP 2 : DATA Processing*
+> We already have target variable "y". Now Let's focus on what we need to do for X variable (i.e features).
+> Now we have a corpus of review texts. This texted data can be converted to numerical form using count vectorizer. This count vectorizer form a list of unique words and assigns 1 when there is word present in that review and if it is not present it assigns 0.
 
 > Visualising the cleaned data by using seaborn library and plotting the graphs (i.e BARPLOT) and extracting the insight (as in our dataset
   it shows PRODUCT_CATEGORY1 has high number of purchases. This can be seen by using graphs)
