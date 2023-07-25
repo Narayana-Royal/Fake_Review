@@ -34,6 +34,7 @@
 
 > <img width="945" alt="Screenshot 2023-07-16 at 9 15 55 PM" src="https://github.com/Narayana-Royal/Fake_Review_Detection/assets/88378136/ca44c29b-2c56-4455-a5d6-c2bd22f9f99f">
 
+
 **IN-DEPTH EXPLANATION OF THE APPROACH:**
 > In order to consider the parts of speech of each word in the given review text, This can be done by a method called POS Tagging (Parts of speech tagging).
 
