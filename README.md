@@ -73,7 +73,7 @@
 > Thirdly, after cleaning the data using tokenzation and stemming. Now that we have corpus with cleaned data. I performed count vectorizer which basically convert the text data into sequence of unique words among all the review column data and assigns Binary(1) whenever there is word in the review and Binary(0) if there is no word present in the review.
 
 
-
+> https://www.amazon.in/Microsoft-i5-1035G1-Touchscreen-Graphics-THH-00023/product-reviews/B08SX5XVBK?reviewerType=all_reviews
 
 
 
