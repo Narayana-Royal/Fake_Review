@@ -32,7 +32,7 @@
 
 > Here's the link of researcher conclusion: https://reputation.com/resources/articles/spot-fake-reviews-how-to/#Look
 
-> <img width="945" alt="Screenshot 2023-07-16 at 9 15 55 PM" src="https://github.com/Narayana-Royal/Fake_Review_Detection/assets/88378136/ca44c29b-2c56-4455-a5d6-c2bd22f9f99f">
+> <img width="966" alt="Screenshot 2023-07-25 at 6 31 16 PM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/d706c6b8-321c-4693-ba6a-5fd1740e19c4">
 
 
 **IN-DEPTH EXPLANATION OF THE APPROACH:**
