@@ -73,12 +73,12 @@
 > So now X has data of all 0s and 1s after performing Count Vectorizer and POS Tagging.
 
 > Also, In order to consider other categorical features like RATING, VERIFIED_PURCHASE and PRODUCT_CATEGORY. I converted those categirical values into numerical using Label Encoding which converts categorical values as numericals (starting from 1,2,3...). To convert these numericals into binary I have used OneHotEncoder which comverts into binary form (0s and 1s).
-  
-> Scaling the features into train and test. Approach used here is that the rows(null values of target column)  are splitted into test data.
+> So now X will be appended with the data that came after performing LabelEncoding and OneHotEncoder.
 
-> Now it is ready to train the model after using TRAIN_TEST_SPLIT function from sklearn
+> Now that we have X and y variables ready. I have split the dataset into training (80%) and testing dataset (20%).
 
-> Thirdly, after cleaning the data using tokenzation and stemming. Now that we have corpus with cleaned data. I performed count vectorizer which basically convert the text data into sequence of unique words among all the review column data and assigns Binary(1) whenever there is word in the review and Binary(0) if there is no word present in the review.
+> Building two different models for these dataset which are Bernoulli Naive Bayes (As our data is in Binary we can use BernoulliNB). Another one will be the SVM. Each model is fitted with the training data and ready to make the predictions using testing data. Overall, SVM gave better accuracy.
+
 
 
 > https://www.amazon.in/Microsoft-i5-1035G1-Touchscreen-Graphics-THH-00023/product-reviews/B08SX5XVBK?reviewerType=all_reviews
