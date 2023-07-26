@@ -72,8 +72,7 @@
 > Now append the above X variable data which has data after performing Count Vectorizer with the data after performing POS Tagging.
 > So now X has data of all 0s and 1s after performing Count Vectorizer and POS Tagging.
 
-> Visualising the cleaned data by using seaborn library and plotting the graphs (i.e BARPLOT) and extracting the insight (as in our dataset
-  it shows PRODUCT_CATEGORY1 has high number of purchases. This can be seen by using graphs)
+> Also, In order to consider other categorical features like RATING, VERIFIED_PURCHASE and PRODUCT_CATEGORY. I converted those categirical values into numerical using Label Encoding which converts categorical values as numericals (starting from 1,2,3...). To convert these numericals into binary I have used OneHotEncoder which comverts into binary form (0s and 1s).
   
 > Scaling the features into train and test. Approach used here is that the rows(null values of target column)  are splitted into test data.
 
