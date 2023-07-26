@@ -75,6 +75,8 @@
 > Also, In order to consider other categorical features like RATING, VERIFIED_PURCHASE and PRODUCT_CATEGORY. I converted those categirical values into numerical using Label Encoding which converts categorical values as numericals (starting from 1,2,3...). To convert these numericals into binary I have used OneHotEncoder which comverts into binary form (0s and 1s).
 > So now X will be appended with the data that came after performing LabelEncoding and OneHotEncoder.
 
+*STEP 2 : MODEL Building and Predictions*
+
 > Now that we have X and y variables ready. I have split the dataset into training (80%) and testing dataset (20%).
 
 > Building two different models for these dataset which are Bernoulli Naive Bayes (As our data is in Binary we can use BernoulliNB). Another one will be the SVM. Each model is fitted with the training data and ready to make the predictions using testing data. Overall, SVM gave better accuracy.
