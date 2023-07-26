@@ -81,8 +81,16 @@
 
 > Building two different models for these dataset which are Bernoulli Naive Bayes (As our data is in Binary we can use BernoulliNB). Another one will be the SVM. Each model is fitted with the training data and ready to make the predictions using testing data. Overall, SVM gave better accuracy.
 
-*STEP 4 : MODEL Building and Predictions*
+*STEP 4 : Building Website and Server*
 
+> As in our approach, the user gives gata of review text and other parameters like rating,verified purchaser or not, product category.
+
+> To get the user input I build a simple website using html css and javascript which helps to connect to the server.
+
+> This data is uploaded to the server and server is connected to the backend where our actual code is present which will return whether the review is false/not.
+
+> server.py has the code for server which connects the deploy.py (where the actual code is present) and template.htm (this has code for website). It acts as an intermediary for ML code and frontend UI.
+ 
 > https://www.amazon.in/Microsoft-i5-1035G1-Touchscreen-Graphics-THH-00023/product-reviews/B08SX5XVBK?reviewerType=all_reviews
 
 
