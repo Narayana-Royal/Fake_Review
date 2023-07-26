@@ -49,9 +49,9 @@
 
 **4. Explanation along with the Code**:
 
-> Importing the necessary libraries to perform dataset operations including saving built models using pickle, nltk for stopwords removal (i.e data cleaning) , regular expression for searching in data etc..
-
 *STEP 1 : DATA CLEANING*
+
+> Importing the necessary libraries to perform dataset operations including saving built models using pickle, nltk for stopwords removal (i.e data cleaning) , regular expression for searching in data etc..
 
 > Reading the amazon reviews dataset using PANDAS READ method.
 
