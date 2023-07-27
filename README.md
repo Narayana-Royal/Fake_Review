@@ -97,7 +97,7 @@
 
 
 **5. Results with Screenshots**: 
-
+* Description of the code along with screenshot*
 > 1. Importing necessary libraries and reading the data from the dataset
 
 <img width="1111" alt="Screenshot 2023-07-27 at 9 02 36 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/be408e57-3b8c-4e15-bd9e-307acf358203">
@@ -129,5 +129,5 @@ append this values in the previous X variable output.
 
 <img width="559" alt="Screenshot 2023-07-27 at 9 17 10 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/81b930e4-331b-4794-aa75-a3f5b481deb7">
 
-
+*Screenshot of the website UI along with review text input*
 
