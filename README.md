@@ -100,7 +100,7 @@
 * Description of the code along with screenshot
 > 1. Importing necessary libraries and reading the data from the dataset
 
-<img width="1111" alt="Screenshot 2023-07-27 at 9 02 36 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/be408e57-3b8c-4e15-bd9e-307acf358203">
+<img width="1111" alt="Screenshot 2023-07-27 at 9 02 36 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/be408e57-3b8c-4e15-bd9e-307acf358203" style="background-color:rgb(255, 255, 243)">
 
 
 > 2. Performing tokenization and stemming for all the review text column
