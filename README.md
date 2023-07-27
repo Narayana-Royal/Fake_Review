@@ -91,7 +91,7 @@
 
 > server.py has the code for server which connects the deploy.py (where the actual code is present) and template.htm (this has code for website). It acts as an intermediary for ML code and frontend UI.
  
-> https://www.amazon.in/Microsoft-i5-1035G1-Touchscreen-Graphics-THH-00023/product-reviews/B08SX5XVBK?reviewerType=all_reviews
+
 
 
 
@@ -131,3 +131,6 @@ append this values in the previous X variable output.
 
 * Screenshot of the website UI along with review text input
 
+> Random Review input link : https://www.amazon.in/Microsoft-i5-1035G1-Touchscreen-Graphics-THH-00023/product-reviews/B08SX5XVBK?reviewerType=all_reviews
+
+> 
