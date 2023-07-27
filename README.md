@@ -103,33 +103,28 @@
 <img width="1111" alt="Screenshot 2023-07-27 at 9 02 36 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/be408e57-3b8c-4e15-bd9e-307acf358203">
 
 
-> .
 > 2. Performing tokenization and stemming for all the review text column
 
 <img width="750" alt="Screenshot 2023-04-27 at 2 04 59 PM" src="https://user-images.githubusercontent.com/88378136/234807868-0b9abf87-10be-43f4-8c90-aeb4ec06dedb.png">
 
 
-> .
 > 3. Count Vectrozier for convert into numerical form and store it in X variable
 
 <img width="1035" alt="Screenshot 2023-07-27 at 9 15 09 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/d3faf7ee-eea0-40bc-9b64-9860b5408f24">
 
 
->
 > 4. Parts of speech tagging for each word in review text and also convert it into numerical form format (i.e fake has format 1,0 and real has format 0,1) and
 append this values in the previous X variable output.
 
 <img width="557" alt="Screenshot 2023-07-27 at 9 15 33 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/423cd139-86e3-4871-9825-cd674ae1a8c0">
 
 
->
 > 5. Also Label Encoding and one hot encoder is performed is performed for few input features which converts first into numericals and later into binary and also appending these to the previous X variable output.
 
 <img width="999" alt="Screenshot 2023-07-27 at 9 16 13 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/14fbf2b0-61f7-4eb3-97e3-1b7aff431e08">
 <img width="999" alt="Screenshot 2023-07-27 at 9 16 21 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/85741edc-5ebe-4c57-b8d1-ba756abe827c">
 
 
->
 > 6. Now Splitting the dataset into training data of 80% and testing data of 20%. And building the models of bernoulliNaiveBayes and SVM.
 
 <img width="559" alt="Screenshot 2023-07-27 at 9 17 10 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/81b930e4-331b-4794-aa75-a3f5b481deb7">
