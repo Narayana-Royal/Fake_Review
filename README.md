@@ -105,7 +105,7 @@
 
 > 2. Performing tokenization and stemming for all the review text column
 
-<img width="750" alt="Screenshot 2023-04-27 at 2 04 59 PM" src="https://user-images.githubusercontent.com/88378136/234807868-0b9abf87-10be-43f4-8c90-aeb4ec06dedb.png">
+<img width="1097" alt="Screenshot 2023-07-27 at 9 06 11 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/8b74ad70-30b8-42de-b2f7-fc49e9ef610f">
 
 
 > 3. Count Vectrozier for convert into numerical form and store it in X variable
