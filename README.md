@@ -103,13 +103,13 @@
 <img width="1111" alt="Screenshot 2023-07-27 at 9 02 36 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/be408e57-3b8c-4e15-bd9e-307acf358203">
 
 
->
+> .
 > 2. Performing tokenization and stemming for all the review text column
 
 <img width="750" alt="Screenshot 2023-04-27 at 2 04 59 PM" src="https://user-images.githubusercontent.com/88378136/234807868-0b9abf87-10be-43f4-8c90-aeb4ec06dedb.png">
 
 
->
+> .
 > 3. Count Vectrozier for convert into numerical form and store it in X variable
 
 <img width="1035" alt="Screenshot 2023-07-27 at 9 15 09 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/d3faf7ee-eea0-40bc-9b64-9860b5408f24">
