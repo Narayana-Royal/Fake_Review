@@ -130,7 +130,8 @@ append this values in the previous X variable output.
 <img width="559" alt="Screenshot 2023-07-27 at 9 17 10 AM" src="https://github.com/Narayana-Royal/Fake_Review/assets/88378136/81b930e4-331b-4794-aa75-a3f5b481deb7">
 
 * Screenshot of the website UI along with review text input
-
 > Random Review input link : https://www.amazon.in/Microsoft-i5-1035G1-Touchscreen-Graphics-THH-00023/product-reviews/B08SX5XVBK?reviewerType=all_reviews
+<img width="1672" alt="Screenshot 2022-08-10 at 8 40 50 PM" src="https://github.com/Narayana-Royal/Fake_Review_Detection/assets/88378136/9d493e58-9fab-4ce9-bfb9-e3afe472a019">
 
-> 
+> Example of Fake review input
+<img width="1655" alt="Screenshot 2022-08-10 at 8 42 03 PM" src="https://github.com/Narayana-Royal/Fake_Review_Detection/assets/88378136/997ae192-3ecb-4c2f-9e5b-72033f58ca5d">
